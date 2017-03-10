@@ -20,6 +20,7 @@ public abstract class BaseActivity extends AutoLayoutActivity {
     protected Context context;
     private ProgressDialog progressDialog;
 
+
     @Override
     public void setContentView(@LayoutRes int layoutResID) {
         super.setContentView(layoutResID);
